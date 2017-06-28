@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 *, *:before, *:after {
 	box-sizing: border-box;
 	position: relative;
@@ -13,6 +15,7 @@ html, body {
 img {
 	width: 150px;
 }
+
 #home{
 	width: 100%;
 	height:100vh;	
@@ -35,6 +38,8 @@ img {
 
 }
 #home nav ul li{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	font-size: 0.9em;
 	color: #00416d;
 	font-style: normal;
@@ -42,14 +47,16 @@ img {
 	line-height: 0.8em;
 	border: solid 1px #888;
 	border-radius: 20px;
-	margin: 0 2.5%;
+	margin: 0 2%;
 	background: #fff;
 	width: 150px;
-	padding: 5px 0;
+	padding: 10px 0; 
+	/*Precisei alterar margin, padding e line-height.*/
 }
 #home img{
-	width: 40%;
-	margin-top:166px;
+	width: 36.02%;
+	margin:166px 1.46%;
+	/*Precisei incluir tamanho comparativo entre imagem e div p*/
 }
 #home div {
 	position: relative;
@@ -58,10 +65,13 @@ img {
 	width: 23%;
 }
 #home div p{
+	width: 77.31%;
 	color: #95989a;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
-	line-height: 0.8em;
+	line-height: 1.5em;
 	letter-spacing:0;
 }
 #sobre{
