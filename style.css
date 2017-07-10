@@ -1,209 +1,123 @@
-@media(max-width: 640px){
-
-}
-
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
 
-*, *:before, *:after {
-  box-sizing: border-box;
-	position: relative;
+/*Padrão estabelecido*/
+
+* {
+	box-sizing: border-box;
+ 	position: relative;
 }
 
-html, body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+ body {
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 
 img {
-	width: 150px;
+	width: 25%;
 }
 
-#home{
-	width: 100%;
-	height:100vh;	
-	display:flex;
-	justify-content: center;
-	align-items: flex-start;
-}
-#home nav {
-	width: 100%;
+/*-----------------------Configurações da "nav" - Menu-----------------------*/
+
+nav ul {
+
+	/*Seletores de Posicionamento do Menu*/
 	position: fixed;
-	top: 0;
+	top: 2%;
+	left: 15%;
+	right: 15%;
 	display: flex;
 	justify-content: center;
 	z-index: 1;
-}
-#home nav ul{
-	display:flex;
-	list-style: none;
-	padding-left: 0;
+}	
 
-}
-#home nav ul li{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 0.9em;
-	color: #00416d;
-	font-style: normal;
-	text-align: center;
-	line-height: 0.8em;
-	border: solid 1px #888;
-	border-radius: 20px;
-	margin: 0 2%;
+nav ul li {
+
+	/*Seletores de Estilo do Menu*/
 	background: #fff;
 	width: 150px;
-	padding: 10px 0; 
-	/*Precisei alterar margin, padding e line-height.*/
-}
-#home img{
-	width: 36.02%;
-	margin:166px 1.46%;
-	/*Precisei incluir tamanho comparativo entre imagem e div p*/
-}
-#home div {
-	position: relative;
-	top:220px;
-	right: -10px;
-	width: 23%;
-}
-#home div p{
-	width: 77.31%;
-	color: #95989a;
+	padding: 8px 30px;
+	border: 1px solid #95989a;
+	border-radius: 30px;
+	margin: 0px 15px;
+
+	/*Seletores de Estilo do Texto*/
+	list-style: none;
+	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+	font-size: 0.94 em;
+	color: #00416d;
 	font-style: normal;
-	text-align: left;
-	line-height: 1.5em;
-	letter-spacing:0;
 }
 
-#sobre{
-	width: 100%;
-	height: 800px;
-	background-image: url('Assets/DSC01680.JPG');
-	background-size: 100%;
-	font-size:1.88;
-	color:#95989a;
-	font-style:normal;
-	text-align:left;
-	line-height:1.61;
-	letter-spacing:0;
-}
-#sobre div{
-	width:40%;
-	top:100px;
-	left: 55%;
-	padding: 15px 60px 40px 60px;
-	background: #fff;
-	border-radius: 10px; 
-}
-#sobre div h2{
-	margin-bottom: 10px;
-	font-size: 2.2em;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-}
-#sobre div p{
-	width:100%
-	color: #95989a;
-	margin-bottom: 5px;
-	padding: 0;
-	font-size: 1em;
-	font-style: normal;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	text-align: left;
-	line-height: 1.44em;
-	letter-spacing: 0em;
+@media(max-width: 640px){
+
+	/*Responsivo do Menu - para Mobiles*/
+
+	nav ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	nav ul li {
+		padding: 0.5% 5%;
+		margin: 2.5%;
+	}
 }
 
-section h3{
-	color: #95989a;
-	font-size: 1.88em;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
-	font-style:normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-}
+/*-----------------------Configurações da "section 1" - Home-----------------------*/
 
-section h4{
-	color: #95989a;
-	font-size: 1.56em;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	font-style:normal;
-	text-align: left;
-	line-height: 1.34em;
-	letter-spacing: 0em;
-}
-
-#acoes {
+.home-section {
+	min-height: 100vh;
+	top: 250px; 
+	/* Infelizmente não foi possível atender à comfiguração de 166px*/ 
+	left: 700px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
 }
 
-#acoes h2 {
-	width: 100%;
+.home-section img {
+	width: 29%;
 }
 
-#acoes div {
-	width: 40%;
-	background-color: red;
-}
-
-#acoes .div1 {
-	width:100%;
-	background-color: green;
-}
-
-/*#acoes {*/
-/*	width: 100%;
-	height: 800px;
-	background-image: url('Assets/DSC01680.JPG');
-	background-size: 100%;
-	font-size: 1.56em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-}*/
-
-	/*width:38%;
-	top:100px;
-	left: 50%;
-	background: #fff;
-	padding: 34.17px;
-	border-radius: 10px;
-	font-size: 1em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-}
-#acoes p {
-	color: #95989a;
+.home-section p {
+	width: 23%;
+	margin: 1.46%;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
+	font-size: 0.94 em;
+	color: #95989a;
 	font-style: normal;
 	text-align: left;
-	line-height: 1.5em;
-	letter-spacing: 0;
+	line-height: 0.8 em;
+	letter-spacing: 0 em;
 }
 
-#contato {
-	width: 100%;
-	height: 800px;
-	background-image: url('Assets/DSC01680.JPG');
-	background-size: 100%;
-}*/
+@media(max-width: 640px){
+
+	/*Responsivo da Secti 1 - Home - para Mobiles*/
+
+.home-section {
+	top: 101px; 
+	/* Infelizmente não foi possível atender à comfiguração de 166px*/ 
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+
+.home-section img {
+	width: 75%;
+	}
+
+.home-section p {
+	top: 38px;
+	width: 90%;
+	margin: 20px;
+	}
+}
+
+/*-----------------------Configurações da "section 2" - Sobre-----------------------*/
+
+
