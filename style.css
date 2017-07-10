@@ -45,6 +45,7 @@ nav ul li {
 	list-style: none;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	font-size: 0.94 em;
 	color: #00416d;
 	font-style: normal;
@@ -120,4 +121,101 @@ nav ul li {
 
 /*-----------------------Configurações da "section 2" - Sobre-----------------------*/
 
+#sobre {
+
+	min-height: 100vh;
+	background-image: url("Assets/sobre.JPG");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	}
+	
+#sobre div {
+	background-color: #fff;
+	width: 700px;
+	right: 50px;
+	height: 500px;
+	border-radius: 30px;
+	top: 5px;
+
+}
+#sobre h2 {
+	margin: 40px 40px 10px 40px;
+	font-weight: 700;
+	font-size: 1.88em;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+#sobre p {
+	margin: 10px 40px 40px 40px;
+	font-weight: 400;
+	font-size: 0.97em;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1em;
+	letter-spacing: 0em;
+}
+
+/*-----------------------Configurações da "section 3" - Ações-----------------------*/
+#acoes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+#acoes h2{
+	width: 90%;
+	font-size: 1.88em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+#acoes h3{
+	font-weight: 600;
+	font-size: 1.56em;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.34em;
+	letter-spacing: 0em;
+}
+#acoes p {
+	font-weight: 400;
+	font-size: 0.97em;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1em;
+	letter-spacing: 0em;
+}
+
+#acoes .acoes-div1 {
+	width: 90%;	
+	height: 600px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#acoes .acoes-div1 img {
+	width: 60%;
+}
+
+#acoes .acoes-div1 h3, #acoes .acoes-div1 p {
+	width: 40%;
+}
 
