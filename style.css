@@ -122,7 +122,6 @@ nav ul li {
 /*-----------------------Configurações da "section 2" - Sobre-----------------------*/
 
 #sobre {
-
 	min-height: 100vh;
 	background-image: url("Assets/sobre.JPG");
 	background-size: cover;
@@ -167,13 +166,14 @@ nav ul li {
 #acoes {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: row wrap;
 }
-
+/*Ações Div1*/
 
 #acoes h2{
-	width: 90%;
+	width: 80%;
+	margin-top: 100px;
 	font-size: 1.88em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -183,6 +183,7 @@ nav ul li {
 	line-height: 1.61em;
 	letter-spacing: 0em;
 }
+
 #acoes h3{
 	font-weight: 600;
 	font-size: 1.56em;
@@ -194,28 +195,74 @@ nav ul li {
 	letter-spacing: 0em;
 }
 #acoes p {
-	font-weight: 400;
 	font-size: 0.97em;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
 	line-height: 1em;
 	letter-spacing: 0em;
 }
-
-#acoes .acoes-div1 {
-	width: 90%;	
-	height: 600px;
+#acoes div {
+	width: 37%;
 	display: flex;
+	flex-direction: column;
+
+}
+#acoes .acoes-div1 {
+	width: 80%;	
+	height: 650px;
 	flex-flow: column wrap;
 }
-
+#acoes .acoes-div1 p{
+	width: 30%;
+}
 #acoes .acoes-div1 img {
 	width: 60%;
 }
 
-#acoes .acoes-div1 h3, #acoes .acoes-div1 p {
-	width: 40%;
+#acoes .acoes-div2 p {
+	width: 70%;
 }
+
+#acoes .acoes-div3 p {
+	width: 70%;
+}
+
+#acoes .acoes-div3 img {
+	width: 70%;
+}
+
+#acoes .acoes-div2 video {
+	width: 95%;
+}
+#contato {
+	min-height: 100vh;
+	background-image: url("Assets/contato.JPG");
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+}
+#contato .contato-div1 {
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+	border-radius: 30px;
+	top: 5px;
+}
+
+#contato .contato-div2 img{
+	width: 140px;
+	font-weight: 700;
+	font-size: 1.88em;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+
+
 
