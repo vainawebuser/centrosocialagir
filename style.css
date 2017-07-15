@@ -237,6 +237,9 @@ nav ul li {
 #acoes .acoes-div2 video {
 	width: 95%;
 }
+
+/*-----------------------Configurações do "footer" - Contato-----------------------*/
+
 #contato {
 	min-height: 100vh;
 	background-image: url("Assets/contato.JPG");
@@ -244,16 +247,19 @@ nav ul li {
 	display: flex;
 	justify-content: flex-end;
 }
-#contato .contato-div1 {
+.contato-div1 {
 	background-color: #fff;
-	width: 500px;
-	height: 500px;
+	width: 34.19%;
+	height: 34.19%;
+	padding: 42px 42px 42px 50px;
 	border-radius: 30px;
-	top: 5px;
+	top: 247px;
+	right: 70px;
 }
 
-#contato .contato-div2 img{
-	width: 140px;
+#contato h2 {
+	margin: 0;
+	padding: 0px;
 	font-weight: 700;
 	font-size: 1.88em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -264,5 +270,72 @@ nav ul li {
 	letter-spacing: 0em;
 }
 
+#contato p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	list-style: none;
+}
+
+#contato ul {
+	margin: 0 0 0 0;
+	padding: 0px;
+}
+
+#contato ul li {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	list-style: none;
+}
+
+/*Posicionamento da Div1*/
+
+#contato .contato-div1-sub {
+	display: flex;
+	flex-direction: row;
+}
+
+/*Configurações das SubDivs*/
+
+#contato .contato-div1-sub1 {
+	width: 30%;
+	margin: 10px 0 5px 0;
+	padding: 0;
+}
+
+#contato .contato-div1-sub2 {
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+
+/*Configurações da SubDiv 1*/
+
+#contato .contato-div1-sub1 img {
+	width: 50%;
+}
+
+#contato .contato-div1-sub1 p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #95989a;
+	text-align: left;	
+}
 
 
+
+/*Configurações da SubDiv 2*/
