@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
 
 /*Padrão estabelecido*/
-
 * {
 	box-sizing: border-box;
  	position: relative;
@@ -16,7 +16,6 @@
 img {
 	width: 25%;
 }
-
 /*-----------------------Configurações da "nav" - Menu-----------------------*/
 header{
 	width: 100%;
@@ -188,7 +187,6 @@ nav a {
 	margin: 0 auto;
 }
 /*Ações Div1*/
-
 #acoes h2{
 	width: 85%;
 	margin-top: 100px;
@@ -201,7 +199,6 @@ nav a {
 	line-height: 1.61em;
 	letter-spacing: 0em;
 }
-
 #acoes h3{
 	font-weight: 600;
 	font-size: 1.56em;
@@ -229,7 +226,6 @@ nav a {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-
 }
 #acoes .acoes-div1 {
 	width: 85%;	
@@ -242,7 +238,6 @@ nav a {
 #acoes .acoes-div1 img {
 	width: 60%;
 }
-
 #acoes .acoes-div2 {
 	padding-bottom: 10%;
 }
@@ -250,21 +245,16 @@ nav a {
 #acoes .acoes-div2 p {
 	width: 90%;
 }
-
 #acoes .acoes-div3 p {
 	width: 90%;
 }
-
 #acoes .acoes-div3 img {
 	width: 80%;
 }
-
 #acoes .acoes-div2 video {
 	width: 95%;
 }
-
 @media(max-width: 640px){
-
 	#acoes {
 		flex-direction: column;
 		align-items: center;
@@ -274,7 +264,6 @@ nav a {
     	margin: 0;
     	margin-top: 25px;
 	}
-
 	#acoes .acoes-div1 {
 		height: auto;	
 	}
@@ -296,10 +285,7 @@ nav a {
 		padding-bottom: 5%;
 	}
 }
-
-
 /*-----------------------Configurações do "footer" - Contato-----------------------*/
-
 #contato {
 	position: relative;
 	min-height: 100vh;
@@ -317,7 +303,6 @@ nav a {
 	top: 247px;
 	right: 70px;
 }
-
 #contato h2 {
 	margin: 0;
 	padding: 0px;
@@ -330,7 +315,6 @@ nav a {
 	line-height: 1.61em;
 	letter-spacing: 0em;
 }
-
 #contato p {
 	margin: 0;
 	padding: 0;
@@ -342,7 +326,6 @@ nav a {
 	text-align: left;
 	list-style: none;
 }
-
 #contato ul {
 	margin: 0 0 0 0;
 	padding: 0px;
@@ -359,34 +342,26 @@ nav a {
 	text-align: left;
 	list-style: none;
 }
-
 /*Posicionamento da Div1*/
-
 #contato .contato-div1-sub {
 	display: flex;
 	flex-direction: row;
 }
-
 /*Configurações das SubDivs*/
-
 #contato .contato-div1-sub1 {
 	width: 30%;
 	margin: 10px 0 5px 0;
 	padding: 0;
 }
-
 #contato .contato-div1-sub2 {
 	width: 70%;
 	margin: 0;
 	padding: 0;
 }
-
 /*Configurações da SubDiv 1*/
-
 #contato .contato-div1-sub1 img {
 	width: 50%;
 }
-
 #contato .contato-div1-sub1 p {
 	margin: 0;
 	padding: 0;
@@ -396,7 +371,6 @@ nav a {
 	color: #95989a;
 	text-align: left;	
 }
-
 @media(max-width: 640px){
 	#contato {
 		justify-content: center;
@@ -412,6 +386,7 @@ nav a {
 		width: 50%;
 	}
 }
+
 /*footer Vai na Web */
 
 .vnw{
@@ -427,14 +402,13 @@ nav a {
     align-items: center;
 }
 .vnw__text{
-    font-family: 'filson-soft', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
+	font-family: 'Source Code Pro', monospace !important;
+	font-weight: 500 !important;
+	font-size: 16px !important;
     color: #30368c !important;
 }
 .vnw__link{
-    color: #30368c !important;
+	font-weight: 700 !important;
 }
 @media (max-width: 768px){
 	.vnw__text{
